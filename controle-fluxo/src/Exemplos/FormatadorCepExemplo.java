@@ -1,3 +1,4 @@
+package Exemplos;
 public class FormatadorCepExemplo {
   public static void main(String[] args) {
     try {
