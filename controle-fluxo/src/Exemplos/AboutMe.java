@@ -1,4 +1,6 @@
-import java.util.InputMismatchException;
+package Exemplos;
+
+import java.util.*;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -27,7 +29,7 @@ public class AboutMe {
       scan.close();
     }
     catch(InputMismatchException e){
-      System.out.println("Os campos idade e altura precisam ser numéricos");
+      System.err.println("Os campos idade e altura precisam ser numéricos");
     }
   }
 }
